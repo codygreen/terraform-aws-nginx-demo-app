@@ -1,4 +1,4 @@
-# NGNIX Demo APp Terraform Module
+# NGNIX Demo App Terraform Module
 Terraform module to deploy a lightweight demo application from NGINX
 
 ![hello](https://github.com/nginxinc/NGINX-Demos/raw/master/nginx-hello/hello.png)
