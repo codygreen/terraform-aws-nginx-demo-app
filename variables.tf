@@ -36,5 +36,5 @@ variable "ec2_instance_type" {
 variable "ec2_instance_count" {
   description = "Number of instances to deploy"
   type        = number
-  default     = 4
+  default     = 2
 }

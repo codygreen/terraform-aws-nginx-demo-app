@@ -65,7 +65,8 @@ module aws-nginx-demo {
     module.web_server_sg.this_security_group_id,
     module.ssh_secure_sg.this_security_group_id
   ]
-  vpc_subnet_ids = module.vpc.public_subnets
+  vpc_subnet_ids     = module.vpc.public_subnets
+  ec2_instance_count = 4
 }
 
 locals {
