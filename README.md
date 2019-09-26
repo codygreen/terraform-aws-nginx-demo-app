@@ -10,7 +10,7 @@ module aws-nginx-demo {
   version = "0.1.0"
 
   prefix                 = "nginx-demo-app"
-  ec2_key_name           = "cody-key"
+  ec2_key_name           = "my-key"
   vpc_security_group_ids = [sg-01234567890abcdef]
   vpc_subnet_ids         = [subnet-01234567890abcdef]
 }
