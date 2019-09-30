@@ -6,8 +6,8 @@ Terraform module to deploy a lightweight demo application from NGINX
 ## Example
 ```hcl
 module aws-nginx-demo {
-  source  = "app.terraform.io/f5cloudsa/nginx-demo-app/aws"
-  version = "0.1.0"
+  source  = "codygreen/nginx-demo-app/aws"
+  version = "0.1.2"
 
   prefix                 = "nginx-demo-app"
   ec2_key_name           = "my-key"
