@@ -15,3 +15,10 @@ module aws-nginx-demo {
   vpc_subnet_ids         = [subnet-01234567890abcdef]
 }
 ```
+## Access Instance
+To access the instance via SSH you will need to use the private key referenced in the deployment under the ec2_key_name variable.  
+
+**Note:** The example below uses an IP address that will be different from the IP address assigned to your instances 
+```bash
+ssh -i ~/.ssh/my-key ubuntu@18.219.222.201
+```
